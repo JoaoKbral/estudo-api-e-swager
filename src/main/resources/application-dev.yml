@@ -1,0 +1,15 @@
+enviroment:
+  name: dev
+
+spring:
+  datasource:
+    url: ${dbUrl}
+    username: ${dbUsername}
+    password: ${dbPassword}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialectect: org.hibernate.dialect.PostgreSQLDialect

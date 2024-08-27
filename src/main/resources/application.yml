@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: estudo-api-e-swager
+
+  config:
+    import: optional:file:.env[.properties]
+
+  profiles:
+    active: dev
